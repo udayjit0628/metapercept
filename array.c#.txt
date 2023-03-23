@@ -1,0 +1,10 @@
+
+int[][] jaggedarray = new int[1][];
+jaggedarray[0] = new int[] {[2, 4, 10, [12, 4, [100, 99], 4], [3, 2, 99], 0]};
+int max = 0;
+for(int i = 0; i < jaggedarray.length; i++)
+{
+if(jaggedarray[i].length > max)
+max = jaggedarray[i].length;
+
+}
